@@ -43,26 +43,6 @@ header img {
 }
 
 
-.sec-mujer {
-    justify-content: center;
-    object-fit: cover;
-
-    ;
-}
-
-.sec-hom {
-    justify-content: center;
-    object-fit: cover;
-
-    ;
-}
-
-.sec-acc {
-    justify-content: center;
-    object-fit: cover;
-}
-
-
 p {
     display: flex;
     color: rgb(161, 46, 83);
@@ -249,15 +229,7 @@ main{width: 100%;
 .todohom{background-color: black
     ;margin-bottom: 5%;
 }
-.piehombre {
-    text-align: center;
-    text-transform: capitalize;
-    color: rgb(138, 31, 65);
-    font-size: 2em;
-}
 
-/*.instah{font-size: 1em;text-align:left; text-transform:lowercase; font-size: large;}*/
-/*.nos{ text-align: left; font-style: italic;}*/
 
 
 
@@ -310,10 +282,6 @@ gap: 1rem; justify-content: center; align-items: center; text-align: center;}
     }
 
     
-
-    .sec-acc{
-        display: none;
-    }
     .catalogo{
         display: grid;
         grid-template-columns: repeat(2,1fr);
