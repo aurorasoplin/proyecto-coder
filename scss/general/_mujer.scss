@@ -6,7 +6,7 @@
 @import "../utilidades/mixin";
 
 /* estilos de mujer */
-.homeM {padding: 10px;
+.HomeM {padding: 10px;
 margin-top: 10px;
 background-color: nth($list-color, 2 );
 .ropa-mujer{color:nth($list-color, 6 );
@@ -22,14 +22,17 @@ header{
 
 }
 main{
-    .productosM{
-        img{width: 220px;
-            height: 280px;
-            border-radius: 30px;}
-            p{text-align: center;
-                font-size: 12px;
-                font-weight: bold;
-            color: nth($list-color,2 );}
-            
+    .catalogo{
+        @include grid(grid, repeat(3, 1fr), 3);
+        .productosM{
+            img{width: 220px;
+                height: 280px;
+                border-radius: 30px;}
+                p{text-align: center;
+                    font-size: 12px;
+                    font-weight: bold;
+                color: nth($list-color,2 );}
+                
+        }
     }
 }

@@ -72,12 +72,12 @@ section .text {
 }
 
 /* estilos de mujer */
-.homeM {
+.HomeM {
   padding: 10px;
   margin-top: 10px;
   background-color: black;
 }
-.homeM .ropa-mujer {
+.HomeM .ropa-mujer {
   color: coral;
   font-size: 4em;
 }
@@ -91,12 +91,17 @@ header .textM {
   color: coral;
 }
 
-main .productosM img {
+main .catalogo {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 3;
+}
+main .catalogo .productosM img {
   width: 220px;
   height: 280px;
   border-radius: 30px;
 }
-main .productosM p {
+main .catalogo .productosM p {
   text-align: center;
   font-size: 12px;
   font-weight: bold;
@@ -161,7 +166,6 @@ section .todohom .todoH {
   color: rgb(145, 33, 98);
   text-align: center;
   font-size: 4em;
-  font-size: large;
 }
 
 .titulosa {
