@@ -1,0 +1,21 @@
+// import variables
+@import "../utilidades/variables";
+
+//import mixin
+@import "../utilidades/mixin";
+
+/*estilos para tablet*/
+@media screen and (max-width: 990px){
+    nav {
+        ul{
+            gap:100px;
+            align-items: center;
+        }
+    }
+    div {overflow: hidden;}
+
+    .catalogo{
+        @include grid (grid, repeat(2, 1fr), 3)
+    }
+    
+} 
