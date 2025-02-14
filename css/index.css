@@ -72,6 +72,10 @@ section .text {
 }
 
 /* estilos de mujer */
+body {
+  text-align: center;
+}
+
 .HomeM {
   padding: 10px;
   margin-top: 10px;
@@ -93,8 +97,8 @@ header .textM {
 
 main .catalogo {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 3;
+  grid-template-columns: repeat 3, 1fr;
+  grid-template-rows: repeat 3, 1fr;
 }
 main .catalogo .productosM img {
   width: 220px;

@@ -6,6 +6,7 @@
 @import "../utilidades/mixin";
 
 /* estilos de mujer */
+body{text-align: center;}
 .HomeM {padding: 10px;
 margin-top: 10px;
 background-color: nth($list-color, 2 );
@@ -23,7 +24,7 @@ header{
 }
 main{
     .catalogo{
-        @include grid(grid, repeat(3, 1fr), 3);
+        @include grid(grid, repeat (3, 1fr), repeat (3, 1fr));
         .productosM{
             img{width: 220px;
                 height: 280px;
