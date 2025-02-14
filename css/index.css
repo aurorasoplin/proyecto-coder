@@ -101,12 +101,12 @@ main .catalogo {
   grid-template-columns: repeat 3, 1fr;
   grid-template-rows: repeat 3, 1fr;
 }
-main .catalogo .productosM img {
+main .catalogo .producM img {
   width: 220px;
   height: 280px;
   border-radius: 30px;
 }
-main .catalogo .productosM p {
+main .catalogo .producM p {
   text-align: center;
   font-size: 12px;
   font-weight: bold;
