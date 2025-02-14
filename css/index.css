@@ -41,11 +41,11 @@ p {
   margin: 5%;
 }
 
-section .todo {
+section header .todo {
   margin: 20px;
   padding: 20px;
 }
-section .todo .text {
+section header .todo .text {
   font-size: large;
 }
 
