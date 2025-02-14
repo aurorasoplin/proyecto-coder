@@ -31,11 +31,11 @@ p{ @include flex;
 
 section{
     header{
-    .todo{
+    
         @include margin(20px, 20px
-        );
+        )
         .text{font-size: large;}
-    }}
+    }
 }
 
 .contacto{
@@ -46,7 +46,7 @@ section{
     color: nth($list-color, 5 );}
     a{text-decoration: none;}
     .direccion{
-        @include grid (grid, (3, 1fr), none);
+        @include grid (grid,repeat(3, 1fr), repeat(1, 1fr));
         justify-content: center;
          align-items: center;
     }
