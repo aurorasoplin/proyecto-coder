@@ -7,7 +7,7 @@ body{background-color: nth($list-color, 1);}
 
 .principal {
     background-color: nth($list-color, 2 );
-    @include flex;
+    @include flex ;
     object-fit: cover;
     margin: nth($margin, 1 );
     margin-top: 60px;
@@ -20,7 +20,7 @@ body{background-color: nth($list-color, 1);}
 .color-rosa{ background-color: nth($list-color, 1 );
 color: nth($list-color, 1 );}
 
-p{ @include flex;
+p{ @include flex ;
     color: nth($list-color, 4 );
     font-size: 24px;
     text-align: center;
@@ -30,10 +30,9 @@ p{ @include flex;
 }
 
 section{
-    header{
-    
-        @include margin(20px, 20px
-        )
+    .todo{@include margin (20px, 20px)
+        
+        
         .text{font-size: large;}
     }
 }

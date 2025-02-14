@@ -1,9 +1,9 @@
 /* Error: expected ";".
  *    ,
- * 36 |         )
- *    |          ^
+ * 33 |     .todo{@include margin (20px, 20px)
+ *    |                                       ^
  *    '
- *   scss\general\_home.scss 36:10  @import
+ *   scss\general\_home.scss 33:39  @import
  *   scss\style.scss 8:10           root stylesheet */
 
 body::before {
@@ -14,5 +14,5 @@ body::before {
   padding: 1em;
   margin-bottom: 1em;
   border-bottom: 2px solid black;
-  content: 'Error: expected ";".\a    \2577 \a 36 \2502          )\d\a    \2502           ^\a    \2575 \a   scss\\general\\_home.scss 36:10  @import\a   scss\\style.scss 8:10           root stylesheet';
+  content: 'Error: expected ";".\a    \2577 \a 33 \2502      .todo{@include margin (20px, 20px)\d\a    \2502                                        ^\a    \2575 \a   scss\\general\\_home.scss 33:39  @import\a   scss\\style.scss 8:10           root stylesheet';
 }
