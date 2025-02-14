@@ -50,6 +50,7 @@ section .todo {
 }
 section .text {
   font-size: large;
+  color: rgb(161, 46, 83);
 }
 
 .contacto {
@@ -102,7 +103,7 @@ header .textM {
 .catalogo {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, 20%);
+  grid-template-rows: repeat(2, 20%);
 }
 .catalogo .producM img {
   width: 220px;

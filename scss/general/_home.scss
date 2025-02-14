@@ -33,7 +33,8 @@ section{background-color: nth($list-color, 2 );
     .todo{
         @include margin (20px, 20px)
     }
-    .text {font-size: large;}
+    .text {font-size: large;
+    color: nth($list-color , 4 );}
 }
 
 .contacto{
