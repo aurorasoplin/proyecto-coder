@@ -18,7 +18,7 @@ body{background-color: nth($list-color, 1);}
     }
 }
 .color-rosa{ background-color: nth($list-color, 1 );
-color: nth($list-color, 1 );}
+color: $rosa;}
 
 p{ @include flex ;
     color: nth($list-color, 4 );
