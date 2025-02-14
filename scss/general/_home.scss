@@ -29,7 +29,7 @@ p{ @include flex ;
     margin: nth($margin, 2 );
 }
 
-section{
+section{background-color: nth($list-color, 2 );
     .todo{
         @include margin (20px, 20px)
     }
