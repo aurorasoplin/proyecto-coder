@@ -30,11 +30,10 @@ p{ @include flex ;
 }
 
 section{
-    .todo{@include margin (20px, 20px)
-        
-        
-        .text{font-size: large;}
+    .todo{
+        @include margin (20px, 20px)
     }
+    .text {font-size: large;}
 }
 
 .contacto{
