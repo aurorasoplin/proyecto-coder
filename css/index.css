@@ -103,7 +103,7 @@ header .textM {
 .catalogo {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(2, 20%);
+  grid-template-rows: repeat(2, 1fr);
 }
 .catalogo .producM img {
   width: 220px;
@@ -158,7 +158,7 @@ main .poster img {
   overflow: hidden;
   object-fit: cover;
 }
-main .img-3 {
+main .poster .img-3 {
   grid-column: span 2;
 }
 
