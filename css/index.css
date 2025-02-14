@@ -96,17 +96,17 @@ header .textM {
   color: coral;
 }
 
-main .catalogo {
+.catalogo {
   display: grid;
   grid-template-columns: repeat 3, 1fr;
   grid-template-rows: repeat 3, 1fr;
 }
-main .catalogo .producM img {
+.catalogo .producM img {
   width: 220px;
   height: 280px;
   border-radius: 30px;
 }
-main .catalogo .producM p {
+.catalogo .producM p {
   text-align: center;
   font-size: 12px;
   font-weight: bold;
