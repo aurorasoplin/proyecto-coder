@@ -160,6 +160,7 @@ section .todohom .todoH {
 header .accesorios {
   color: rgb(145, 33, 98);
   text-align: center;
+  font-size: 4em;
   font-size: large;
 }
 
