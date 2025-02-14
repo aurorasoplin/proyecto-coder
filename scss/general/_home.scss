@@ -7,7 +7,7 @@ body{background-color: nth($list-color, 1);}
 
 .principal {
     background-color: nth($list-color, 2 );
-    @include flex ;
+    @include flex;
     object-fit: cover;
     margin: nth($margin, 1 );
     margin-top: 60px;
