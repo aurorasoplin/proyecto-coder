@@ -1,344 +1,191 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-
 body {
-    background-color: rgb(219, 197, 202);
+  background-color: rgb(219, 197, 202);
 }
 
 .principal {
-    background-color: black;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    object-fit: cover;
-    margin: 10px;
-    margin-top: 60px;
-    
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  object-fit: cover;
+  margin: 10px;
+  margin-top: 60px;
+}
+.principal img {
+  display: flex;
+  align-items: center;
+  width: 350px;
+  height: 200px;
 }
 
-
-header img {
-    display: flex;
-    align-items: center;
-    width: 350px;
-    height: 200px;
-
+.color-rosa {
+  background-color: rgb(219, 197, 202);
+  color: rgb(219, 197, 202);
 }
-
-
-.color-Rosa{background-color: rgb(219, 197, 202); color: rgb(219, 197, 202);}
-
-.imagenes {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    object-fit: cover;
-    width: 100%;
-    overflow: hidden;
-    gap: 40px;
-}
-
 
 p {
-    display: flex;
-    color: rgb(161, 46, 83);
-    font-size: 24px;
-    text-align: center;
-    font-style: inherit;
-    text-transform: uppercase;
-    justify-content: center;
-    margin: 5%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  color: rgb(161, 46, 83);
+  font-size: 24px;
+  text-align: center;
+  font-style: inherit;
+  text-transform: uppercase;
+  margin: 5%;
 }
 
-h1 {
-    color: rgb(138, 31, 65);
-    text-align: center;
-    text-transform: uppercase;
+section .todo {
+  margin: 20px;
+  padding: 20px;
+}
+section .todo .text {
+  font-size: large;
 }
 
-.medio{justify-content: center; overflow: hidden;;}
-.todo {
-    margin: 20px;
-    padding: 20px;
-    
+.contacto {
+  display: flex;
+  background-color: black;
 }
-.text{font-size: large;}
-.h5{font-size: larger;}
-.tipos {
-    display: flex;
-    list-style: none;
-    flex-direction: row-reverse;
-    justify-content: center;
-    gap: 30%;
-    font-style: initial;
-    padding: 20px;
+.contacto .titulo-footer {
+  font-size: 16px;
 }
-
-.contenedor {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    row-gap: 40px;
+.contacto .letra {
+  font-size: 10px;
+  color: rgb(206, 201, 195);
+}
+.contacto a {
+  text-decoration: none;
+}
+.contacto .direccion {
+  display: grid;
+  grid-template-columns: 3, 1fr;
+  grid-template-rows: none;
+  justify-content: center;
+  align-items: center;
 }
 
-footer {
-    display: flex;
-    background-color:black;
-   
- 
+/* estilos de mujer */
+.homeM {
+  padding: 10px;
+  margin-top: 10px;
+  background-color: black;
 }
-
-footer a {
-    text-decoration: none;
-}
-
-
-.titulo-footer{font-size: 16px;}
-
-.letra{font-size: 10px;color: rgb(206, 201, 195);}
-.direccion{display: grid;
-grid-template-columns: repeat(3,1fr); justify-content: center; align-items: center;} 
-
-/*pagina de mujer*/
-
-.home {
-    display: flex;
-    color: black;
-    list-style: none;
-    text-decoration: none;
-}
-
-.HomeM {
-    padding: 10PX;
-    margin-top: 10px;
-    background-color: black;
-}
-
-body {
-    text-align: center;
-}
-
-.ropa-mujer {
-    color: coral;
-    font-size: 4em;
-}
-.textM{color: coral;}
-
-.redes {
-    color: crimson;
-    text-align: center;
+.homeM .ropa-mujer {
+  color: coral;
+  font-size: 4em;
 }
 
 .titulosm {
-    color: dimgrey;
-    text-align: center;
+  color: dimgrey;
+  text-align: center;
 }
 
-.ImagenesM {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    object-fit: cover;
-    width: 100%;
-    overflow: hidden;
-    gap: 90px;
-    ;
-}
-.catalogo{
-    width: 100%;
-    display: grid;
-grid-template-columns: repeat(3, 1fr);
-
-
-}
-.producM img{
-    width: 220px;
-    height: 280px;
-    border-radius: 30px;
-
-
-}
-.producM p{
-    text-align: center;
-    font-size: 12px;
-    font-weight: bold;
-    color: black;
-}
-.piemujer {
-    text-transform: capitalize;
-    font-size: 2em;
-    color: coral;
+header .textM {
+  color: coral;
 }
 
-.espacio{ gap: 2em;}
+main .productosM img {
+  width: 220px;
+  height: 280px;
+  border-radius: 30px;
+}
+main .productosM p {
+  text-align: center;
+  font-size: 12px;
+  font-weight: bold;
+  color: black;
+}
 
-
-/*pagina hombre*/
-
-.PagesH {
-    background-color: rgb(194, 194, 233);
+/*estilos de page hombre*/
+.pagesH {
+  background-color: rgb(194, 194, 233);
 }
 
 .HomeH {
-    padding: 20PX;
-    background-color: black;
+  padding: 20PX;
+  background-color: black;
 }
-
-.hombre {
-    color: blue;
-    text-align: center;
-    font-size: 4em;
+.HomeH .hombre {
+  color: blue;
+  text-align: center;
+  font-size: 4em;
 }
 
 .titulosh {
-    color: dimgrey;
-    text-align: center;
-    margin-bottom: 0%;
+  color: dimgrey;
+  text-align: center;
+  margin-bottom: 0%;
 }
 
- .poster img{ width:100% ;
-height: 100%;
-overflow: hidden;
-object-fit: cover;}
-main{width: 100%;
-    height: 100%;
-    overflow: hidden;
-    object-fit: cover;
+main {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  object-fit: cover;
 }
-.poster{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 50% 50%;
-    column-gap: 1rem;
-    row-gap: 1rem;
-    padding: 10%;
-    
+main .poster {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 50% 50%;
+  column-gap: 1rem;
+  row-gap: 1rem;
+  padding: 10%;
 }
-.img-3 {grid-column: span 2 ;
-    
+main .poster img {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  object-fit: cover;
 }
-
-
-.todoH {
-    color: blue;
-    
-}
-.todohom{background-color: black
-    ;margin-bottom: 5%;
+main .img-3 {
+  grid-column: span 2;
 }
 
+section .todohom {
+  background-color: black;
+  margin-bottom: 5%;
+}
+section .todohom .todoH {
+  color: blue;
+}
 
-
-
-
-/*accesorios*/
-.acccesorios {
-    color: rgb(145, 33, 98);
-    text-align: center;
-    font-size: 4em;
+/*estilos pages accesorios y nosotros*/
+header .accesorios {
+  color: rgb(145, 33, 98);
+  text-align: center;
+  font-size: large;
 }
 
 .titulosa {
-    color: gray;
-    text-align: center;
+  color: gray;
+  text-align: center;
 }
 
-.acccesorios{font-size: large;}
-
-
-
-
-
-
-/*nosotros*/
-
+/*estilos page nosotros*/
+.titulosn {
+  color: rgb(27, 48, 68);
+  text-align: center;
+}
 
 .nosotros {
-    color: rgb(70, 17, 25);
-    text-align: center;
-    font-size: 4em;
+  color: rgb(70, 17, 25);
+  text-align: center;
+  font-size: 4em;
 }
 
-.titulosn {
-    color: rgb(27, 48, 68);
-    text-align: center;
-}
-.informacion{ display: flex;
-gap: 1rem; justify-content: center; align-items: center; text-align: center;}
-
-/*estilo para tablet HOME*/
-
-@media screen and (max-width: 990px) {
-    nav ul {
-        gap: 100px;
-        align-items: center;
-    }
-
-    div {
-        overflow: hidden
-    }
-
-    
-    .catalogo{
-        display: grid;
-        grid-template-columns: repeat(2,1fr);
-    }
-
+.informacion {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
-/* estilo para movile HOME*/
-@media screen and (max-width: 600px) {
-    header .home{height: 25vh;}
-    p {
-        font-size: small;
-    }
-
-    .sec-hom {
-        display: block;
-    }
-
-    .imagenes {
-        display: grid;
-        grid-template-columns: 1fr;
-        height: 110vh;
-    }
-
-    .text {
-        font-size: medium;
-    }
-
-    .contenedor {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: 6 ;
-    }
-
-    .direccion{ display: grid;
-    grid-template-columns: repeat(1, 1fr);}
-
-}
-
-/* estilo para movile MUJER*/
-@media screen and (max-width: 600px) {
-.ropa-mujer{font-size: x-large;}
-   
-    .ImagenesM{ display: grid; gap: 10px;}
-    .textM{font-size: medium;}
-    
-}
-/*estilo para movile HOMBRE*/
-
-@media screen and (max-width: 600px){
-    .HomeH{margin-top: 10px; 
-   }
-   .hombre{font-size: x-large;}
-   .todoH{ font-size: large;}
-   .informacion{display: grid;
-grid-template-columns: repeat(1,1fr);
-grid-template-rows: repeat(3,1fr);
-gap: 1rem;}
-}
-
+/*# sourceMappingURL=index.css.map */

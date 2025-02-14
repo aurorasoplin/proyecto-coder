@@ -1,0 +1,36 @@
+//import variebles
+@import "../utilidades/variables";
+
+//immport mixin
+@import "../utilidades/mixin";
+
+/*estilos pages accesorios y nosotros*/
+
+header{
+    .accesorios{
+        color: nth($list-color , 7 );
+        text-align: center;
+        font-size: large;
+    
+    }
+}
+.titulosa{color: gray;
+text-align: center;}
+
+
+/*estilos page nosotros*/
+
+.titulosn{color: nth($list-color,9 );
+text-align: center;}
+.nosotros{color:nth($list-color,8 );
+    text-align: center;
+    font-size: 4em;
+}
+
+.informacion{
+    display: flex;
+gap: 1rem;
+ justify-content: center; 
+align-items: center; 
+text-align: center;
+}

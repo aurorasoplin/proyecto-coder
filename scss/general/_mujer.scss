@@ -1,0 +1,35 @@
+//import variables
+@import "../utilidades/variables";
+
+//import mixin
+
+@import "../utilidades/mixin";
+
+/* estilos de mujer */
+.homeM {padding: 10px;
+margin-top: 10px;
+background-color: nth($list-color, 2 );
+.ropa-mujer{color:nth($list-color, 6 );
+font-size: 4em;}}
+
+.titulosm{
+    color: dimgrey;
+    text-align: center;
+}
+
+header{
+    .textM{color:nth($list-color, 6 );}
+
+}
+main{
+    .productosM{
+        img{width: 220px;
+            height: 280px;
+            border-radius: 30px;}
+            p{text-align: center;
+                font-size: 12px;
+                font-weight: bold;
+            color: nth($list-color,2 );}
+            
+    }
+}

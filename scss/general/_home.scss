@@ -1,0 +1,53 @@
+//import utilidades
+@import "../utilidades/variables";
+//import mixin
+@import "../utilidades/mixin";
+
+body{background-color: nth($list-color, 1);}
+
+.principal {
+    background-color: nth($list-color, 2 );
+    @include flex;
+    object-fit: cover;
+    margin: nth($margin, 1 );
+    margin-top: 60px;
+    img{
+        @include align;
+        width: 350px;
+        height: 200px;
+    }
+}
+.color-rosa{ background-color: nth($list-color, 1 );
+color: nth($list-color, 1 );}
+
+p{ @include flex;
+    color: nth($list-color, 4 );
+    font-size: 24px;
+    text-align: center;
+    font-style: inherit;
+    text-transform: uppercase;
+    margin: nth($margin, 2 );
+}
+
+section{
+    .todo{
+        @include margin(20px, 20px
+        );
+        .text{font-size: large;}
+    }
+}
+
+.contacto{
+    display: flex;
+    background-color: nth($list-color , 2 );
+    .titulo-footer{font-size: 16px;}
+    .letra{ font-size: 10px;
+    color: nth($list-color, 5 );}
+    a{text-decoration: none;}
+    .direccion{
+        @include grid (grid, (3, 1fr), none);
+        justify-content: center;
+         align-items: center;
+    }
+}
+
