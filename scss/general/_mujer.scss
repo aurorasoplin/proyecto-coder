@@ -24,8 +24,8 @@ header{
 
 }
 
-    .catalogo{
-        @include grid (grid, repeat (3, 1fr), repeat (3, 1fr));
+.catalogo{
+        @include grid (grid, repeat(3, 1fr), repeat(3, 1fr));
         .producM{
             img{width: 220px;
                 height: 280px;

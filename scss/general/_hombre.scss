@@ -23,7 +23,7 @@ main{width: 100%;
     overflow: hidden;
     object-fit: cover;
     .poster{
-        @include grid(grid, repeat(2, 1fr), 50% 50% );
+        @include grid (grid, repeat(2, 1fr), 50% 50% );
         column-gap: 1rem;
     row-gap: 1rem;
     padding: 10%;
