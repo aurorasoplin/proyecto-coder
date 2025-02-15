@@ -224,8 +224,8 @@ section .todohom .todoH {
 }
 /*estilos para movile*/
 @media screen and (max-width: 600px) {
-  .ropa-mujer {
-    font-size: x-large;
+  .HomeM .ropa-mujer {
+    font-size: medium;
   }
   p {
     font-size: medium;
@@ -237,11 +237,14 @@ section .todohom .todoH {
   .textM {
     font-size: medium;
   }
-  .accesorios {
+  .principal .accesorios {
     font-size: medium;
   }
   .HomeH {
     margin-top: 10px;
+  }
+  .HomeH .hombre {
+    font-size: medium;
   }
   .catalogo {
     display: grid;
