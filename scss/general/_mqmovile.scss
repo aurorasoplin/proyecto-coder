@@ -1,0 +1,12 @@
+//import variables
+@import "../utilidades/variables";
+
+//import mixin
+@import "../utilidades/mixin";
+
+/*estilos pat movile*/
+@media screen and (max-width: 600px) {
+    .informacion{@include grid (grid, repeat(1, 1fr), repeat(3, 1fr));
+    gap: 1rem }
+    
+}
