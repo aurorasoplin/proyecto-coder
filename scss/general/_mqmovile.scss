@@ -14,6 +14,9 @@
     
     .HomeH{margin-top: 10px; 
     }
+    .catalogo{
+        @include grid(grid, repeat(1, 1fr), repeat(6, 1fr) )
+    }
     .hombre{font-size: x-large;}
     .todoH{ font-size: large;}
     .informacion{@include grid (grid, repeat(1, 1fr), repeat(3, 1fr));
@@ -21,6 +24,6 @@
     .direccion{ display: grid;
         grid-template-columns: repeat(1, 1fr);}
     .contacto{
-        @include grid(grid, repeat(1, 1fr), repeat(3, 1fr))
+        @include grid(grid, repeat(1, 1fr), none)
     }
 }

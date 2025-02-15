@@ -236,6 +236,11 @@ section .todohom .todoH {
   .HomeH {
     margin-top: 10px;
   }
+  .catalogo {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+  }
   .hombre {
     font-size: x-large;
   }
@@ -255,7 +260,7 @@ section .todohom .todoH {
   .contacto {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-rows: none;
   }
 }
 
