@@ -23,8 +23,8 @@
     .informacion{@include grid (grid, repeat(1, 1fr), repeat(3, 1fr));
     gap: 1rem }
     
-        .direccion{
-            @include grid (grid, repeat(1, 1fr), 3);
+    .direccion{
+            @include grid (grid, repeat(1, 1fr), repeat(3, 1fr) )
          }
     
     

@@ -24,7 +24,7 @@ body {
   height: 200px;
 }
 
-nav .color-rosa {
+nav div {
   background-color: rgb(219, 197, 202);
   color: rgb(219, 197, 202);
   color: rgb(219, 197, 202);
@@ -176,7 +176,7 @@ section .todohom .todoH {
 }
 
 /*estilos pages accesorios y nosotros*/
-.HomeM .accesorios {
+.principal .accesorios {
   color: rgb(145, 33, 98);
   text-align: center;
   font-size: 4em;
@@ -260,7 +260,7 @@ section .todohom .todoH {
   .direccion {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: 3;
+    grid-template-rows: repeat(3, 1fr);
   }
 }
 
