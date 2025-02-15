@@ -17,9 +17,10 @@ body{background-color: nth($list-color, 1);}
         height: 200px;
     }
 }
+nav{
 .color-rosa{ background-color: nth($list-color, 1 );
 color: $rosa;}
-
+}
 p{ @include flex ;
     color: nth($list-color, 4 );
     font-size: 24px;
