@@ -148,7 +148,7 @@ header .textM {
   grid-template-rows: 2;
   column-gap: 1rem;
   row-gap: 1rem;
-  padding: 10%;
+  padding: 5%;
 }
 .poster img {
   width: 100%;
