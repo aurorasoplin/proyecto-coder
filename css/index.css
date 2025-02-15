@@ -215,7 +215,7 @@ section .todohom .todoH {
     grid-template-rows: 3;
   }
 }
-/*estilos pat movile*/
+/*estilos para movile*/
 @media screen and (max-width: 600px) {
   .ropa-mujer {
     font-size: x-large;
