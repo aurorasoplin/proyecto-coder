@@ -226,6 +226,9 @@ section .todohom .todoH {
   .ropa-mujer {
     font-size: x-large;
   }
+  p {
+    font-size: medium;
+  }
   .ImagenesM {
     display: grid;
     gap: 10px;
