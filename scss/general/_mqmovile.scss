@@ -12,7 +12,7 @@
     .ImagenesM{ display: grid; gap: 10px;}
     .textM{font-size: medium;}
     
-    
+    .accesorios{font-size: medium;}
     .HomeH{margin-top: 10px; 
     }
     .catalogo{
@@ -23,9 +23,12 @@
     .informacion{@include grid (grid, repeat(1, 1fr), repeat(3, 1fr));
     gap: 1rem }
     
-    .direccion{
+    .contacto{
+        .direccion{
             @include grid (grid, repeat(1, 1fr), repeat(3, 1fr) )
          }
     
+    }
     
+
 }
