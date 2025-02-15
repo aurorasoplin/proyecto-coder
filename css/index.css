@@ -237,6 +237,9 @@ section .todohom .todoH {
   .textM {
     font-size: medium;
   }
+  .principal {
+    margin: 10%;
+  }
   .principal .accesorios {
     font-size: medium;
   }
