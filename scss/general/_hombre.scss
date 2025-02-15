@@ -24,7 +24,7 @@
     height: 100%;
     overflow: hidden;
     object-fit: cover;
-        @include grid (grid, repeat(2, 1fr), 2 );
+        @include grid (grid, repeat(2, 1fr), repeat(2, 1fr) );
         column-gap: 1rem;
     row-gap: 1rem;
     padding: 5%;
