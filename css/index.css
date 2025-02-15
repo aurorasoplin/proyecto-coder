@@ -257,10 +257,10 @@ section .todohom .todoH {
     grid-template-rows: repeat(3, 1fr);
     gap: 1rem;
   }
-  div .direccion {
+  .direccion {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: none;
+    grid-template-rows: 3;
   }
 }
 
