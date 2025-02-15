@@ -259,11 +259,7 @@ section .todohom .todoH {
   .direccion {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-  }
-  .contacto {
-    display: grid;
-    grid-template-columns: none;
-    grid-template-rows: none;
+    grid-template-rows: 3;
   }
 }
 

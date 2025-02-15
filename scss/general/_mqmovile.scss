@@ -22,9 +22,8 @@
     .todoH{ font-size: large;}
     .informacion{@include grid (grid, repeat(1, 1fr), repeat(3, 1fr));
     gap: 1rem }
-    .direccion{ display: grid;
-        grid-template-columns: repeat(1, 1fr);}
-    .contacto{
-        @include grid(grid, none, none)
-    }
+    .direccion{
+        @include grid(grid, repeat(1, 1fr), 3);
+     }
+    
 }
