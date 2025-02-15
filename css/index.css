@@ -27,6 +27,7 @@ body {
 nav .color-rosa {
   background-color: rgb(219, 197, 202);
   color: rgb(219, 197, 202);
+  color: rgb(219, 197, 202);
 }
 
 p {
@@ -259,7 +260,7 @@ section .todohom .todoH {
   .direccion {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: 3;
+    grid-template-rows: none;
   }
 }
 

@@ -19,7 +19,7 @@ body{background-color: nth($list-color, 1);}
 }
 nav{
 .color-rosa{ background-color: nth($list-color, 1 );
-color: $rosa;}
+color: $rosa; color:rgb(219, 197, 202) }
 }
 p{ @include flex ;
     color: nth($list-color, 4 );
