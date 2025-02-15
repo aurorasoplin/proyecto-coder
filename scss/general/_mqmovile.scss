@@ -6,7 +6,19 @@
 
 /*estilos pat movile*/
 @media screen and (max-width: 600px) {
+    .ropa-mujer{font-size: x-large;}
+   
+    .ImagenesM{ display: grid; gap: 10px;}
+    .textM{font-size: medium;}
+    
+    
+    .HomeH{margin-top: 10px; 
+    }
+    .hombre{font-size: x-large;}
+    .todoH{ font-size: large;}
     .informacion{@include grid (grid, repeat(1, 1fr), repeat(3, 1fr));
     gap: 1rem }
+    .direccion{ display: grid;
+        grid-template-columns: repeat(1, 1fr);}
     
 }
