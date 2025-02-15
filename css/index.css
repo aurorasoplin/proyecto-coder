@@ -262,7 +262,7 @@ section .todohom .todoH {
   }
   .contacto {
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: none;
     grid-template-rows: none;
   }
 }

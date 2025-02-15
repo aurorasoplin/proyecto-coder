@@ -25,6 +25,6 @@
     .direccion{ display: grid;
         grid-template-columns: repeat(1, 1fr);}
     .contacto{
-        @include grid(grid, repeat(1, 1fr), none)
+        @include grid(grid, none, none)
     }
 }
